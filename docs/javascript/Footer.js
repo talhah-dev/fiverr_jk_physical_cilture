@@ -1,89 +1,121 @@
 const footer = document.getElementById('footer')
 footer.innerHTML = `
-    <footer class="bg-gray-900 text-gray-300 pt-20">
-        <div class="max-w-7xl mx-auto px-6">
+<!-- Footer Section -->
+<footer class="bg-neutral-950">
+  <div class="mx-auto max-w-7xl px-6 pt-16 md:pt-20">
+    <div class="grid gap-10 border-t border-white/10 pt-10 lg:grid-cols-4">
+      <div class="lg:col-span-2">
+        <a href="index.html" class="inline-flex items-center gap-3">
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-emerald-500/15 text-emerald-300">
+            <i class="fa-solid fa-dumbbell"></i>
+          </span>
+          <span class="text-lg font-semibold tracking-tight text-white">
+            JK Physical Culture
+          </span>
+        </a>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 mb-16">
+        <p class="mt-4 max-w-xl text-sm leading-relaxed text-white/65">
+          Strength coaching and personal training in El Segundo &amp; the South Bay. Technique-first programming built for sustainable progress.
+        </p>
 
-                <div data-aos="fade-up">
-                    <img src="/docs/assets/logo.png" alt="Roofers Logo" class="h-10 mb-6">
-                    <p class="text-gray-400 mb-6">
-                        Providing trusted residential and commercial roofing services
-                        with quality craftsmanship and long-lasting results.
-                    </p>
-                    <div class="flex gap-4">
-                        <a href="#"
-                            class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-yellow-500 hover:text-gray-900 transition">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-yellow-500 hover:text-gray-900 transition">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-yellow-500 hover:text-gray-900 transition">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                </div>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a
+            href="https://www.instagram.com/jkphysicalculture/"
+            target="_blank"
+            class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white/80 transition hover:bg-white/10"
+          >
+            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-emerald-500/15 text-emerald-300">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+            Instagram
+          </a>
 
-                <div data-aos="fade-up" data-aos-delay="200">
-                    <h4 class="text-white text-lg font-bold mb-6">Quick Links</h4>
-                    <ul class="space-y-4">
-                        <li><a href="/index.html" class="hover:text-yellow-400 transition">Home</a></li>
-                        <li><a href="/about.html" class="hover:text-yellow-400 transition">About Us</a></li>
-                        <li><a href="/services.html" class="hover:text-yellow-400 transition">Services</a></li>
-                        <li><a href="/faq.html" class="hover:text-yellow-400 transition">FAQ</a></li>
-                        <li><a href="/contact.html" class="hover:text-yellow-400 transition">Contact Us</a></li>
-                    </ul>
-                </div>
+          <a
+            href="https://www.facebook.com/jkphysicalculture"
+            target="_blank"
+            class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white/80 transition hover:bg-white/10"
+          >
+            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-emerald-500/15 text-emerald-300">
+              <i class="fa-brands fa-facebook"></i>
+            </span>
+            Facebook
+          </a>
 
-                <div data-aos="fade-up" data-aos-delay="400">
-                    <h4 class="text-white text-lg font-bold mb-6">Our Services</h4>
-                    <ul class="space-y-4">
-                        <li><a href="/residential-roofing.html" class="hover:text-yellow-400 transition">Residential
-                                Roofing</a></li>
-                        <li><a href="/commercial-roofing.html" class="hover:text-yellow-400 transition">Commercial
-                                Roofing</a></li>
-                        <li><a href="/multi-family-roofing.html" class="hover:text-yellow-400 transition">Multi-Family
-                                Roofing</a></li>
-                        <li><a href="/roof-repair.html" class="hover:text-yellow-400 transition">Roof Repair</a></li>
-                        <li><a href="/new-roofing.html" class="hover:text-yellow-400 transition">New Roofing</a></li>
-                    </ul>
-                </div>
-
-                <div data-aos="fade-up" data-aos-delay="600">
-                    <h4 class="text-white text-lg font-bold mb-6">Contact Info</h4>
-                    <ul class="space-y-5">
-                        <li class="flex gap-4">
-                            <i class="fa-solid fa-location-dot text-yellow-400 mt-1"></i>
-                            <span>San Antonio, TX</span>
-                        </li>
-                        <li class="flex gap-4">
-                            <i class="fa-solid fa-phone text-yellow-400 mt-1"></i>
-                            <a href="tel:+1234567890" class="hover:text-yellow-400 transition">(123) 456-7890</a>
-                        </li>
-                        <li class="flex gap-4">
-                            <i class="fa-solid fa-envelope text-yellow-400 mt-1"></i>
-                            <a href="mailto:info@roofers.com"
-                                class="hover:text-yellow-400 transition">info@roofers.com</a>
-                        </li>
-                        <li class="flex gap-4">
-                            <i class="fa-solid fa-clock text-yellow-400 mt-1"></i>
-                            <span>Mon – Sat: 8:00 AM – 6:00 PM</span>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div
-                class="border-t border-white/10 py-8 flex justify-center text-center items-center gap-4 text-sm">
-                <p class="text-gray-400">
-                    © 2026 Roofers. All Rights Reserved.
-                </p>
-            </div>
-
+          <a
+            href="#"
+            class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white/80 transition hover:bg-white/10"
+          >
+            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-emerald-500/15 text-emerald-300">
+              <i class="fa-solid fa-star"></i>
+            </span>
+            Yelp
+          </a>
         </div>
-    </footer>
+      </div>
+
+      <div>
+        <p class="text-sm font-semibold text-white">Quick Links</p>
+        <ul class="mt-4 space-y-3 text-sm text-white/70">
+          <li><a href="#services" class="transition hover:text-white">Programs</a></li>
+          <li><a href="#how-it-works" class="transition hover:text-white">How it works</a></li>
+          <li><a href="#testimonials" class="transition hover:text-white">Testimonials</a></li>
+          <li><a href="#faq" class="transition hover:text-white">FAQ</a></li>
+          <li><a href="#contact" class="transition hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="text-sm font-semibold text-white">Pages</p>
+        <ul class="mt-4 space-y-3 text-sm text-white/70">
+          <li><a href="about.html" class="transition hover:text-white">About</a></li>
+          <li><a href="qualifications.html" class="transition hover:text-white">Qualifications</a></li>
+          <li><a href="testimonials.html" class="transition hover:text-white">Reviews</a></li>
+          <li><a href="personal-assessment.html" class="transition hover:text-white">Personal Assessment</a></li>
+          <li><a href="mobility-class.html" class="transition hover:text-white">Mobility Class</a></li>
+          <li><a href="remote-coaching.html" class="transition hover:text-white">Remote Coaching</a></li>
+          <li><a href="contact.html" class="transition hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl md:p-8">
+      <div class="grid items-center gap-6 md:grid-cols-[1.2fr_.8fr]">
+        <div>
+          <h3 class="text-xl font-semibold text-white md:text-2xl">
+            Get new posts by email
+          </h3>
+          <p class="mt-2 text-sm text-white/70">
+            Occasional updates, training tips, and announcements.
+          </p>
+        </div>
+
+        <form class="flex flex-col gap-3 sm:flex-row md:justify-end">
+          <input
+            type="email"
+            required
+            class="w-full rounded-xl border border-white/10 bg-neutral-950/60 px-4 py-3 text-sm text-white placeholder-white/40 focus:border-emerald-400 focus:outline-none sm:max-w-xs"
+            placeholder="Enter your email"
+          />
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-500 px-6 py-3 text-sm font-semibold text-neutral-950 shadow-lg shadow-emerald-500/20 transition hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-neutral-950"
+          >
+            <i class="fa-solid fa-bell"></i>
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-3 border-t border-white/10 py-8 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
+      <p>Copyright © 2026 JK Physical Culture — All rights reserved.</p>
+      <div class="flex flex-wrap gap-4">
+        <a href="#" class="transition hover:text-white">Privacy</a>
+        <a href="#" class="transition hover:text-white">Terms</a>
+        <a href="#contact" class="transition hover:text-white">Book Appointment</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
 `

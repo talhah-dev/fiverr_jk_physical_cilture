@@ -6,7 +6,7 @@ const bottomToTopScroll = document.getElementById("bottomToTopScroll");
 
 bottomToTopScroll.innerHTML = `
 <div
-    class="bottomToTop fadeIn w-12 cursor-pointer z-40 bg-yellow-500 h-12 fixed bottom-5 right-5 hover:bg-yellow-500/80 transition-all duration-500 hidden text-white flex items-center justify-center rounded-full "><i class="fa-solid fa-angle-up"></i>
+    class="bottomToTop fadeIn w-12 cursor-pointer z-40 bg-emerald-500 h-12 fixed bottom-5 right-5 hover:bg-emerald-500/80 transition-all duration-500 hidden text-white flex items-center justify-center rounded-full "><i class="fa-solid fa-angle-up"></i>
 </div>`
 
 document.addEventListener("DOMContentLoaded", function () {
