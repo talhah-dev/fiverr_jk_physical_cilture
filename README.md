@@ -1,17 +1,45 @@
-Hero (done)
+# JK Physical Culture 🏋️‍♂️
 
-Trust / Credentials Strip (certifications, Yelp rating, “CSCS / NSCA-CPT”, quick proof) ✅ next
+A modern, responsive website for **JK Physical Culture**, a personal training and strength coaching brand based in **El Segundo & the South Bay, Los Angeles**.
 
-Services / Programs (cards for Strength, Fat Loss, Mobility, Remote Coaching)
+This project replaces an outdated WordPress site with a clean, fast, SEO-friendly frontend built using **HTML, Tailwind CSS, and JavaScript**.
 
-How It Works (assessment → plan → coaching → results)
+---
 
-Testimonials (quotes + rating)
+## 🌐 Live Pages
 
-Featured Offer (Mobility class Wed/Fri or Remote coaching highlight)
+- Home – `index.html`
+- Qualifications & Experience – `qualifications.html`
+- Testimonials – `testimonials.html`
+- Personal Assessment – `personal-assessment.html`
+- Mobility Class – `mobility-class.html`
+- Remote Exercise Coaching – `remote-coaching.html`
+- Contact – `contact.html`
 
-About Coach (photo, short story, qualifications)
+---
 
-FAQ (pricing questions, location, who it’s for)
+## 🛠️ Tech Stack
 
-Contact / Book (form + CTA + location)
+- **HTML5**
+- **Tailwind CSS (CDN)**
+- **JavaScript (Vanilla)**
+- **Font Awesome** (icons)
+- **AOS** (scroll animations)
+- **Lenis** (smooth scrolling)
+
+---
+
+## 🎨 Design Features
+
+- Modern dark UI with emerald accent
+- Fully responsive (mobile, tablet, desktop)
+- Smooth animated navigation menu
+- Glassmorphism cards & sections
+- SEO-optimized structure
+- Accessible form elements
+
+---
+
+## 🧭 Navigation
+
+The navigation bar is injected dynamically using JavaScript for consistency across all pages.

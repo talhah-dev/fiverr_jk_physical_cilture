@@ -20,7 +20,7 @@ footer.innerHTML = `
 
         <div class="mt-6 flex flex-wrap gap-3">
           <a
-            href="https://www.instagram.com/jkphysicalculture/"
+            href="https://www.instagram.com/jkphysicalculture"
             target="_blank"
             class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white/80 transition hover:bg-white/10"
           >
@@ -40,27 +40,17 @@ footer.innerHTML = `
             </span>
             Facebook
           </a>
-
-          <a
-            href="#"
-            class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white/80 transition hover:bg-white/10"
-          >
-            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-emerald-500/15 text-emerald-300">
-              <i class="fa-solid fa-star"></i>
-            </span>
-            Yelp
-          </a>
         </div>
       </div>
 
       <div>
         <p class="text-sm font-semibold text-white">Quick Links</p>
         <ul class="mt-4 space-y-3 text-sm text-white/70">
-          <li><a href="#services" class="transition hover:text-white">Programs</a></li>
-          <li><a href="#how-it-works" class="transition hover:text-white">How it works</a></li>
-          <li><a href="#testimonials" class="transition hover:text-white">Testimonials</a></li>
-          <li><a href="#faq" class="transition hover:text-white">FAQ</a></li>
-          <li><a href="#contact" class="transition hover:text-white">Contact</a></li>
+          <li><a href="/index.html#services" class="transition hover:text-white">Programs</a></li>
+          <li><a href="/index.html#how-it-works" class="transition hover:text-white">How it works</a></li>
+          <li><a href="/index.html#testimonials" class="transition hover:text-white">Testimonials</a></li>
+          <li><a href="/index.html#faq" class="transition hover:text-white">FAQ</a></li>
+          <li><a href="/index.html#contact" class="transition hover:text-white">Contact</a></li>
         </ul>
       </div>
 
@@ -110,9 +100,7 @@ footer.innerHTML = `
     <div class="mt-10 flex flex-col gap-3 border-t border-white/10 py-8 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
       <p>Copyright © 2026 JK Physical Culture — All rights reserved.</p>
       <div class="flex flex-wrap gap-4">
-        <a href="#" class="transition hover:text-white">Privacy</a>
-        <a href="#" class="transition hover:text-white">Terms</a>
-        <a href="#contact" class="transition hover:text-white">Book Appointment</a>
+        <a href="/contact" class="transition hover:text-white">Book Appointment</a>
       </div>
     </div>
   </div>

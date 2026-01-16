@@ -1,54 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
 
   <url>
-    <loc>https://yourdomain.com/index.html</loc>
-    <priority>1.0</priority>
+    <loc>https://jkphysicalculture.com/</loc>
+    <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/about.html</loc>
-    <priority>0.8</priority>
+    <loc>https://jkphysicalculture.com/qualifications.html</loc>
+    <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/services.html</loc>
-    <priority>0.9</priority>
+    <loc>https://jkphysicalculture.com/testimonials.html</loc>
+    <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/residential-roofing.html</loc>
-    <priority>0.9</priority>
+    <loc>https://jkphysicalculture.com/personal-assessment.html</loc>
+    <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/commercial-roofing.html</loc>
-    <priority>0.9</priority>
+    <loc>https://jkphysicalculture.com/mobility-class.html</loc>
+    <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/multi-family-roofing.html</loc>
-    <priority>0.9</priority>
+    <loc>https://jkphysicalculture.com/remote-coaching.html</loc>
+    <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/roof-repair.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/new-roofing.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/faq.html</loc>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/contact.html</loc>
-    <priority>0.8</priority>
+    <loc>https://jkphysicalculture.com/contact.html</loc>
+    <priority>0.95</priority>
   </url>
 
 </urlset>
