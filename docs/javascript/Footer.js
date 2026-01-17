@@ -40,6 +40,17 @@ footer.innerHTML = `
             </span>
             Facebook
           </a>
+
+          <a
+            href="https://www.yelp.com/biz/jk-physical-culture-el-segundo?osq=Trainers"
+            target="_blank"
+            class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white/80 transition hover:bg-white/10"
+          >
+            <span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-emerald-500/15 text-emerald-300">
+              <i class="fa-brands fa-yelp"></i>
+            </span>
+            Yelp
+          </a>
         </div>
       </div>
 
