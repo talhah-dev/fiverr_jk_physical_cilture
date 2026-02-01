@@ -15,7 +15,11 @@ footer.innerHTML = `
         </a>
 
         <p class="mt-4 max-w-xl text-sm leading-relaxed text-white/65">
-          Strength coaching and personal training in El Segundo &amp; the South Bay. Technique-first programming built for sustainable progress.
+          Strength coaching and
+            <a href="/personal-trainer-el-segundo/" class="">
+              Personal Trainer in El Segundo
+            </a>
+            &amp; the South Bay. Technique-first programming built for sustainable progress.
         </p>
 
         <div class="mt-6 flex flex-wrap gap-3">
